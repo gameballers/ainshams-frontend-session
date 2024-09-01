@@ -1,0 +1,33 @@
+.post-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.post-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.post-body {
+    margin-top: 32px;
+}
+
+.comments-container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.comments-container input {
+    outline: none;
+    border: none;
+    background: #f4f4f4;
+    padding: 8px 24px;
+    border-radius: 16px;
+    width: 100%;
+}

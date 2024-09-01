@@ -1,0 +1,19 @@
+<div class="post-container">
+    <div class="post-heading">
+        <app-avatar [img]="post.author.img"></app-avatar>
+        <div>
+            <h4 class="author-name">{{post.author.name}}</h4>
+            <p class="time">{{post.time}}</p>
+        </div>
+    </div>
+    
+    <div class="post-body">
+        <p>
+            {{post.content}}
+        </p>
+    </div>
+
+    <div class="comments-container">
+        <input type="text" name="comment" id="comment" [(ngModel)]="comment" placeholder="Write your comment">
+    </div>
+</div>
